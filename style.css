@@ -52,6 +52,10 @@
     margin-top: -75px;
 }
 
+.nav-btn{
+    display: flex;
+}
+
 ul{
     list-style-type: none;
 }
