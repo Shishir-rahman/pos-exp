@@ -51,14 +51,9 @@
 }
 
 .nav-logo{
-<<<<<<< HEAD
     margin-top: -7%;
     height: 145px; 
     width: 330px
-=======
-    width: 25%;
-    height: 100px;
->>>>>>> f1c7985a370bbfb28d73edc6631bb4d87b9819ca
 }
 
 .nav-menu-div{
@@ -69,10 +64,6 @@
 .nav-btn-div{
     width: 20%;
     margin-top: 2%;
-}
-
-.navbar-div1{
-    width: 70%;
 }
 
 .nav-btn{
@@ -310,5 +301,6 @@ ul{
 
 .section4-header >h2{
     text-align: center;
+    font-size: 46px;
     font-weight: bold;
 }
