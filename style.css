@@ -6,26 +6,28 @@
 .header-nav{
     background-color: white;
     width: 100%;
-    height: 100px;
+    height: 150px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     position: fixed;
     z-index: 1;
 }
 
 .nav-container{
-    padding-left: 100px;
-    padding-right: 100px;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header-contact{
     text-align: right;
-    padding-top: 10px;  
-    margin-right: 235px;
+    margin-top: 1%;
+    margin-right: 6%;
 }
 
 .whatsapp-number{
     text-decoration: none; 
     color: black; 
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -35,25 +37,57 @@
 
 .whatsapp-icon{
     width: 15px;
-    height: 15px;
+    height: 18px;
+}
+
+.nav-body{
+    height: 100%;
+    display: flex;
+}
+
+.nav-logo-div{
+    width: 20%;
+    
 }
 
 .nav-logo{
-    width: 250px;
-    height: 100px;
+    margin-top: -7%;
+    height: 145px; 
+    width: 330px
 }
 
-.nav-logo > a {
-    float: left;
-    margin-top: -18px;
+.nav-menu-div{
+    width: 60%;
+    margin-top: 2%;
 }
 
-.navbar{
-    margin-top: -75px;
+.nav-btn-div{
+    width: 20%;
+    margin-top: 2%;
 }
 
 .nav-btn{
-    display: flex;
+    margin-left: 30%;
+}
+
+.nav-btn-list{
+    float: left;
+    padding-right: 5%;
+    font-size: 21px;
+}
+
+.nav-btn-list>a{
+    background-color: #1E88E5;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-btn-list > a:hover{
+    background-color: tomato;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 ul{
@@ -62,7 +96,8 @@ ul{
 
 .nav-manu-list1{
     float: left;
-    padding-right: 25px;
+    padding-right: 5%;
+    font-size: 21px;
 }
 
 .nav-manu-list1>a{
@@ -74,7 +109,6 @@ ul{
 .nav-manu-list1>a:hover{
     color: tomato;
 }
-
 
 
 .nav-manu-list2{
@@ -90,22 +124,7 @@ ul{
     font-weight: bold;
 }
 
-.btn-login{
-    background-color: #1E88E5;
-    padding: 8px;
-    border-radius: 5px;
-}
 
-.btn-login:hover{
-    background-color: tomato;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-.btn-reg{
-    background-color: #1E88E5;
-    padding: 8px;
-    border-radius: 5px;
-}
 
 .btn-reg:hover{
     background-color: tomato;
@@ -117,26 +136,37 @@ ul{
     height: 100vi;
     padding-left: 120px;
     padding-right: 120px;
-    padding-top: 160px;
+    padding-top: 12%;
 }
 
 .section1{
-    width: 1110px;
-    height: 450px;
+    width: 100%;
     display: flex;
     padding: 10px;
 }
 
-.section1-body > h2{
-    text-align: justify;
-    margin-top: 70px;
-    padding-left: 5px;
-    padding-right: 40px;
-    font-weight: bold;
-    font-size: 36px;
+.section1-body{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.section1-body > p{
+.section1-body-content{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.section1-body-content > h2{
+    text-align: justify;
+    margin-top: 130px;
+    padding-left: 5px;
+    padding-right: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.section1-body-content > p{
     padding-left: 5px;
     padding-top: 15px;
 }
@@ -154,6 +184,15 @@ ul{
 .section1-btn:hover{
     background-color: tomato;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section1-pic-div{
+    width: 50%;
+    text-align-last: center;
+}
+
+.section1-pic{
+    height: 745px;
 }
 
 
@@ -231,7 +270,7 @@ ul{
 }
 
 .section3-clm1-content{
-    margin-left: 20%;
+    margin-left: 35%;
 
 }
 
@@ -245,4 +284,22 @@ ul{
 
 .section3-clm1-content-body-span{
     padding-left: 10px;
+}
+
+
+.section3-clm2-content{
+    margin-left: 25%;
+}
+
+
+.section4{
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    border: 1px solid black;
+}
+
+.section4-header >h2{
+    text-align: center;
+    font-weight: bold;
 }
