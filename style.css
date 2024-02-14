@@ -296,11 +296,24 @@ ul{
     width: 100%;
     height: 500px;
     padding-top: 100px;
-    border: 1px solid black;
 }
 
 .section4-header >h2{
     text-align: center;
     font-size: 46px;
     font-weight: bold;
+}
+
+.section4-body-div{
+    margin-top: 6%;
+}
+
+.section4-body-content-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-body-content-pic{
+    border: 2px solid #dddd;
+    padding: 5px;
 }
