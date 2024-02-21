@@ -48,7 +48,6 @@
 }
 
 .nav-logo-div{
-    width: 20%;
     
 }
 
@@ -69,11 +68,11 @@
 }
 
 .nav-btn{
+    display: flex;
     margin-left: 30%;
 }
 
 .nav-btn-list{
-    float: left;
     padding-right: 5%;
     font-size: 21px;
 }
@@ -98,8 +97,11 @@ ul{
     list-style-type: none;
 }
 
+.nav-manu{
+    display: flex;
+}
+
 .nav-manu-list1{
-    float: left;
     padding-right: 5%;
     font-size: 21px;
 }
